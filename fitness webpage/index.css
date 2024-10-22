@@ -1,0 +1,393 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30%;
+    position: relative;
+    right: 70px;
+}
+header .logo h1{
+    font-size: 22px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(223, 219, 219);
+}
+
+.hero-sec{
+    margin: 30px;
+    padding: 40px;
+    /* border: 2px solid white; */
+    height: 700px;
+    display: flex;
+}
+
+.hero-sec .one h1{
+    font-size: 200px;
+    position: relative;
+    top: -170px;
+    font-weight: 600;
+    line-height: 170px;
+    letter-spacing: -2px;
+}
+.hero-sec .one p{
+    position: relative;
+    top: -350px;
+    left: 12px;
+    color: rgb(209, 204, 204);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+}
+
+.hero-sec .one .strt-btn a{
+    text-decoration: none;
+    color: white;
+}
+.hero-sec .one .rev-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-sec .one .strt-btn{
+    width: 200px;
+    height: 70px;
+    background-color: rgba(37, 171, 117, 1);
+    border-radius: 10px;
+    position: relative;
+    top: -330px;
+    left: 12px;
+    border: 2px solid rgba(37, 171, 117, 1);
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.hero-sec .one .rev-btn{
+    width: 200px;
+    height: 70px;
+    background-color: rgb(129, 124, 124);
+    
+    border-radius: 10px;
+    position: relative;
+    top: -330px;
+    left: 30px;
+    border: 2px solid  rgb(129, 124, 124);
+    font-weight: 600;
+    color: white;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.hero-sec .two{
+    position: relative;
+    right: 130px;
+    top: -20px;
+}
+.hero-sec .two img{
+    width: 500px;
+    
+}
+.hero-sec .two .time, .est{
+    position: relative;
+    top: -700px;
+    left: 300px;
+}
+/* .hero-sec .two .time{
+    background-color: rgb(177, 173, 173);
+    opacity: 10%;
+    width: 166px;
+    height: 98px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 40px;
+    color: rgba(255, 230, 66, 1);
+    font-weight: 600;
+    padding-top: 20px;
+} */
+
+.hero-sec .three img{
+    position: relative;
+    right: 300px;
+    top: 130px;
+}
+main{
+    margin: 30px;
+    padding: 40px;
+    /* border: 2px solid whit; */
+    height: 700px;
+}
+main .m-header{
+    display: flex;
+    justify-content: space-between;
+}
+main .m-header p a{
+    text-decoration: none;
+    color: rgb(199, 195, 195);
+    font-size: 12px;
+    font-weight: 400;
+}
+main .m-header h1{
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+    top: -30px;
+}
+
+main .main-sec1{
+    display: flex;
+    justify-content: space-between;
+}
+main .main-sec2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -180px;
+}
+
+main .main-sec1 .one h1{
+    font-weight: 600;
+    font-size: 50px;
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
+main .main-sec2 .two h1{
+    font-weight: 600;
+    font-size: 50px;
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
+
+main .main-sec1 .one .p-one{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 1.37px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 60px;
+    height: 20px;
+    position: relative;
+    top: -200px;
+    left: 300px;
+}
+main .main-sec2 .two .p-one{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 1.37px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 60px;
+    height: 20px;
+    position: relative;
+    top: -200px;
+    left: 300px;
+}
+main .main-sec1 .one .p-two{
+    color: white;
+    opacity: 67%;
+    font-size: 13px;
+    font-weight: 400;
+    position: relative;
+    top: -220px;
+    left: 30px;
+}
+main .main-sec2 .two .p-two{
+    color: white;
+    opacity: 67%;
+    font-size: 13px;
+    font-weight: 400;
+    position: relative;
+    top: -220px;
+    left: 20px;
+}
+.page-desc{
+    margin: 30px;
+    padding: 40px;
+    /* border: 2px solid white; */
+    height: 1000px;
+    position: relative;
+    top: 80px;
+}
+.page-desc img{
+    width: 980px;
+    height: 700px;
+    position: relative;
+    left: 290px;
+    top: -40px;
+}
+.page-desc p{
+    width: 508px;
+    height: 200px;
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 70%; 
+    position: relative;
+    top: -550px;
+    left: 650px;
+}
+.page-desc button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.page-desc button{
+    width: 200px;
+    height: 70px;
+    background-color: rgba(37, 171, 117, 1);
+    border: 2px solid rgba(37, 171, 117, 1);
+    border-radius: 10px;
+    position: relative;
+    top: -590px;
+    left: 650px;
+}
+.page-desc .one{
+    position: relative;
+    top: -300px;
+}
+
+.page-desc .one h1{
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 120px;
+  letter-spacing: -2px;
+  width: 350px;
+  height: 480px;
+  position: relative;
+  top: -1410px;
+  left: 90px;
+}
+.page-desc .one img{
+    position: relative;
+    width: 500px;
+    top: -508px;
+    left: 60px;
+}
+
+.pro-trainers{
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+}
+.pro-trainers .one{
+    position: relative;
+    top: -350px;
+    right: 10px;
+}
+.pro-trainers .one{
+    position: relative;
+    top: -350px;
+    right: 10px;
+}
+
+.pro-trainers .two{
+    position: relative;
+    top: -30px;
+    right: 20px;
+}
+.pro-trainers .three{
+    position: relative;
+    top: -480px;
+    right: 25px;
+}
+
+.pro-trainers .one h1{
+    position: relative;
+    top: -10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.pro-trainers .two h1{
+    position: relative;
+    top: -10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.pro-trainers .three h1{
+    position: relative;
+    top: -10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.pro-trainers .one p{
+    position: relative;
+    top: -25px;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 50%;
+}
+.pro-trainers .two p{
+    position: relative;
+    top: -25px;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 50%;
+}
+.pro-trainers .three p{
+    position: relative;
+    top: -25px;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 50%;
+}
+.exercise-list{
+    position: relative;
+    top: -250px;
+    /* border: 2px solid wheat; */
+    padding: 70px;
+}
+table .td-one{
+    font-size: 25px;
+    font-weight: 600;
+    opacity: 35%;
+}
+table .td-two{
+    position: relative; 
+    left: 320px; 
+    /* border: 2px solid white; */
+}
+table .td-three{
+    position: relative; 
+    right: 60px; 
+    /* border: 2px solid white; */
+}
+
+table .td-two h1{
+    font-size: 40px;
+    font-weight: 400;
+    /* line-height: 30px; */
+    width: 447px;
+    height: 30px;
+}
+table .td-two p{
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 23px; */
+    opacity: 50%;
+}
+table tr{
+    border-bottom: 2px solid rgb(153, 149, 149);
+}
